@@ -9,16 +9,18 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
     />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <ul>
+    <header class="page-header">
+      <div class="container page-header__container">
+        <ul class="page-header__list">
           <li><a href="#">Новокузнечный переулок 4/1</a></li>
           <li><a href="tel:+88121234567">8 (812) 123-45-67</a></li>
         </ul>
-        <nav>
-          <ul>
+        <nav class="page-nav">
+          <ul class="page-nav__list">
             <li><a href="">Каталог</a></li>
             <li><a href="">Доставка</a></li>
             <li><a href="">Коллекции</a></li>
@@ -32,10 +34,116 @@
         <h1>Интернет магазин вина "Погребок"</h1>
 
         <ul>
-          <li><button>Винная карта</button></li>
+          <li>
+            <button>Винная карта</button>
+          </li>
           <li><button>Дегустация</button></li>
         </ul>
       </section>
+      <!-- <section>
+        <div class="container">
+          <ul class="masonry__list list">
+            <li class="masonry__item">
+              <div class="masonry__thumb card">
+                <img
+                  class="masonry__img card__inner"
+                  src="./img/pexels-adonyi-gábor-1407857.jpg"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li class="masonry__item">
+              <div class="masonry__thumb card">
+                <img
+                  class="masonry__img card__inner"
+                  src="./img/pexels-cottonbro-4254039.jpg"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li class="masonry__item">
+              <div class="masonry__thumb card">
+                <img
+                  class="masonry__img card__inner"
+                  src="./img/pexels-freestocksorg-312080.jpg"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li class="masonry__item">
+              <div class="masonry__thumb card">
+                <img
+                  class="masonry__img card__inner"
+                  src="./img/pexels-grape-things-2954924.jpg"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li class="masonry__item">
+              <div class="masonry__thumb card">
+                <img
+                  class="masonry__img card__inner"
+                  src="./img/pexels-helena-lopes-696215.jpg"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li class="masonry__item">
+              <div class="masonry__thumb card">
+                <img
+                  class="masonry__img card__inner"
+                  src="./img/pexels-jess-harper-sunday-3521365.jpg"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li class="masonry__item">
+              <div class="masonry__thumb card">
+                <img
+                  class="masonry__img card__inner"
+                  src="./img/pexels-markus-spiske-121191.jpg"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li class="masonry__item">
+              <div class="masonry__thumb card">
+                <img
+                  class="masonry__img card__inner"
+                  src="./img/pexels-pixabay-248413.jpg"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li class="masonry__item">
+              <div class="masonry__thumb card">
+                <img
+                  class="masonry__img card__inner"
+                  src="./img/pexels-pixabay-434311.jpg"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li class="masonry__item">
+              <div class="masonry__thumb card">
+                <img
+                  class="masonry__img card__inner"
+                  src="./img/pexels-posawee-suwannaphati-391213.jpg"
+                />
+              </div>
+            </li>
+            <li class="masonry__item">
+              <div class="masonry__thumb card">
+                <img
+                  class="masonry__img card__inner"
+                  src="./img/pexels-tim-mossholder-953166.jpg"
+                  alt=""
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section> -->
       <section>
         <h2>Лучший вкус, это вкус долголетнего вина</h2>
         <p>
@@ -50,6 +158,53 @@
           Vitae dui vel pretium euismod diam. Pellentesque amet, lacus, amet,
           quis risus. Pellentesque scelerisque nunc, orci aliquam quis.
         </p>
+      </section>
+      <section>
+        <h2>Галерея вина</h2>
+        <button class="next">Next img</button>
+        <button class="prev">Prev img</button>
+        <ul class="gallery__list">
+          <li class="gallery__item">
+            <img src="./img/pexels-adonyi-gábor-1407857.jpg" alt="" />
+            <h3></h3>
+          </li>
+          <li class="gallery__item">
+            <img src="./img/pexels-cottonbro-4254039.jpg" alt="" />
+            <h3></h3>
+          </li>
+          <li class="gallery__item">
+            <img src="./img/pexels-freestocksorg-312080.jpg" alt="" />
+            <h3></h3>
+          </li>
+          <li class="gallery__item">
+            <img src="./img/pexels-grape-things-2954924.jpg" alt="" />
+            <h3></h3>
+          </li>
+          <li class="gallery__item">
+            <img src="./img/pexels-helena-lopes-696215.jpg" alt="" />
+            <h3></h3>
+          </li>
+          <li class="gallery__item">
+            <img src="./img/pexels-jess-harper-sunday-3521365.jpg" alt="" />
+            <h3></h3>
+          </li>
+          <li class="gallery__item">
+            <img src="./img/pexels-markus-spiske-121191.jpg" alt="" />
+            <h3></h3>
+          </li>
+          <li class="gallery__item">
+            <img src="./img/pexels-pixabay-248413.jpg" alt="" />
+            <h3></h3>
+          </li>
+          <li class="gallery__item">
+            <img src="./img/pexels-pixabay-434311.jpg" alt="" />
+            <h3></h3>
+          </li>
+          <li class="gallery__item">
+            <img src="./img/pexels-posawee-suwannaphati-391213.jpg" alt="" />
+            <h3></h3>
+          </li>
+        </ul>
       </section>
       <section>
         <p>Новинки коллекций</p>
@@ -120,5 +275,18 @@
         </ul>
       </address>
     </footer>
+
+    <!-- <script src="./laxy-load.js"></script> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"
+      integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./js/slick-carousel.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <!-- <script src="./masorny.js"></script> -->
   </body>
 </html>

@@ -1,0 +1,28 @@
+@import 'base';
+
+// $color: olive;
+
+// body {
+//   background-color: $color;
+// }
+
+// @import 'grids';
+
+// .container {
+//   width: 1140px;
+//   padding: 15px 0;
+//   margin: 0 auto;
+// }
+
+.container {
+  width: 1140px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+body {
+  background-color: olivedrab;
+}
+
+@import 'components/header';
+@import 'components/gallery';
