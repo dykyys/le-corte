@@ -12,7 +12,11 @@
 [aos](https://michalsnik.github.io/aos/)
 
 [errorlens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+
 [HTMLHint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint)
+
 [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+
 [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+
 [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)
