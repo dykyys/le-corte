@@ -7,12 +7,12 @@ cards.forEach(card => {
 
 function onMousemoveCardHandler(evt) {
   const cardInner = this.querySelector('.card__inner');
-  const halfHeight = cardInner.offsetHeight / 6;
-  const halfWidth = cardInner.offsetWidth / 6;
+  const halfHeight = cardInner.offsetHeight / 8;
+  const halfWidth = cardInner.offsetWidth / 8;
   const y = evt.offsetY;
   const x = evt.offsetX;
   cardInner.style.transform = `rotateX(${(-y + halfHeight) / 5}deg) rotateY(${
-    (x - halfWidth) / 7
+    (x - halfWidth) / 4
   }deg)`;
 }
 
